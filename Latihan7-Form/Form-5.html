@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Pemograman Web</title>
+</head>
+
+<body>
+	<form>
+		<label for="text">Teks :</label>
+		<input type="text" id="text">
+		<br><br>
+
+		<label for="number">Number :</label>
+		<input type="number" id="number">
+		<br><br>
+
+		<label for="password">Password :</label>
+		<input type="password" id="password">
+		<br><br>
+
+		<label for="date">Date :</label>
+		<input type="date" id="date">
+		<br><br>
+
+		<!-- input akan divalidasi sesuai dengan penulisan email -->
+		<!-- tiap browser berbeda -->
+		<label for="email">Email :</label>
+		<input type="email" id="email">
+		<br><br>
+
+		<!-- input akan divalidasi sesuai dengan penulisan url -->
+		<!-- tiap browser berbeda -->
+		<label for="url">Url :</label>
+		<input type="url" id="url">
+		<br><br>
+
+		<!-- untuk memunculkan nilai diperlukan css dan javascript -->
+		<label for="range">Range :</label>
+		<input type="range" id="range">
+		<br><br>
+
+		<!-- 
+            digunakan untuk single choice / hanya 1 yang bisa dipilih
+            name wajib sama
+        -->
+		<label>Single Choice :</label>
+		<input type="radio" name="gender"><label>Pilihan Pertama</label>
+		<input type="radio" name="gender"><label>Pilihan Kedua</label>
+		<input type="radio" name="gender"><label>Pilihan Ketiga</label>
+		<br><br>
+
+		<!-- digunakan untuk multi choice -->
+		<label>Multi Choice :</label>
+		<input type="checkbox"> <label>Pilihan Pertama</label>
+		<input type="checkbox"> <label>Pilihan Kedua</label>
+		<input type="checkbox"> <label>Pilihan Ketiga</label>
+		<br><br>
+
+		<!-- digunakan untuk single choice berbentuk dropdown -->
+		<label>Pilih :</label>
+		<select>
+			<option>Pilihan Pertama</option>
+			<option>Pilihan Kedua</option>
+			<option>Pilihan Ketiga</option>
+		</select>
+		<br><br>
+
+		<!-- digukanan untuk input yang teksnya banyak -->
+		<label>Teks Area</label>
+		<textarea></textarea>
+		<br><br>
+
+		<!-- readonly hanya bisa dibaca -->
+		<!-- value ==> memberi nilai -->
+		<label for="text">Teks :</label>
+		<input type="text" id="text" readonly value="nilai default">
+		<br><br>
+
+		<!-- min ==> nilai minimum input -->
+		<!-- max ==> nilai maximum input -->
+		<label for="number">Number :</label>
+		<input type="number" id="number" min="5" max="10">
+		<br><br>
+
+		<!-- reset menghapus semua input -->
+		<button type="reset">Hapus</button>
+
+		<!-- mengirim data dibutuhkan bahasa pemograman untuk mengelolanya -->
+		<button type="submit">Kirim</button>
+
+	</form>
+
+</body>
+
+</html>
